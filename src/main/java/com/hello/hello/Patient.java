@@ -1,6 +1,6 @@
 package com.hello.hello;
 
-public class Patients {
+public class Patient {
 
     private int id;
 
@@ -12,7 +12,7 @@ public class Patients {
 
     private String DiseaseName;
 
-    public Patients(int id, String name, int age, String profession, String diseaseName) {
+    public Patient(int id, String name, int age, String profession, String diseaseName) {
         this.id = id;
         this.name = name;
         this.age = age;
