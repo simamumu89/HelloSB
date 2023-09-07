@@ -10,11 +10,11 @@ import java.util.Map;
 public class HelloController {
 
     @GetMapping("/hello")
-    public List<Student> hello(){
-        List<Student> student = List.of(
-                new Student(1, "Yamada", 25, "standing work", "sprain"),
-                new Student(2, "Shimamura",27, "desk work", "lower back pain"),
-                new Student(3, "Murakami", 29, "baseball player", "Shoulder pain"));
+    public List<Patients> hello(){
+        List<Patients> student = List.of(
+                new Patients(1, "Yamada", 25, "standing work", "sprain"),
+                new Patients(2, "Shimamura",27, "desk work", "lower back pain"),
+                new Patients(3, "Murakami", 29, "baseball player", "Shoulder pain"));
         return student;
     }
 }
